@@ -14,34 +14,7 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="C6">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Facilities</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
+
     <header class="header">
 
         <img src="photos/Group 5.png" alt="" class="src">
@@ -49,12 +22,21 @@
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
             <li><a href="#C6">Home</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#facilities">Facilities</a></li>
-            <li><a href="#team">Team</a></li>
+            <li><a href="#gall">Gallery</a></li>
+            <li><a href="#facility">Facilities</a></li>
+            <li><a href="#teams">Team</a></li>
             <li><a href="#C7">Contact</a></li>
         </ul>
     </header>
+
+    <!--Cover page-->
+    <div class="coverpg">
+        <img src="photos/cover%20page.jpg" class="coverimagemain">
+        <div class="kbname">
+            <h1>Kasturba Bhawan</h1>
+            <h5>Dedicated to Honb. Kasturba Gandhi</h5>
+        </div>
+    </div>
 
     <!-- About Us -->
     <div class="container_about" id="C6">
@@ -88,7 +70,7 @@
                 </p>
             </div>
             <!-- <div class="box col-md-1"></div> -->
-            <div class="col-md-5 border-md-1 ">
+            <div class="col-md-5 border-md-1 about_photo">
                 <img src="photos/About.jpg" alt="" class="src ml-4 about_me img-fluid"
                     style="height: 500px; width: 500px;" />
             </div>
@@ -98,72 +80,140 @@
     </div>
 
     <!--Facilities-->
-    <!-- <div class="facilities">
+    <div class="facilities">
         <h1>Facilities</h1>
         <div class="container_facilities">
+            <span>Swipe Right <img src="photos/Vector.png" alt=""></span>
             <div class="fc">
+
                 <div class="scrollmain">
+
                     <div class="facilities_gallery">
-                        <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
+                        <img src="photos/kb pics/folder/mess.jpeg" class="facilityimg" alt="Cover not found">
                         <div class="desc">
-                            <h2> Canteen </h2>
+                            <h3> Mess </h3>
+                            <h6>B-Block ground floor</h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
+                            <h6>Closes at: 02:00 am</h6> -->
+                        </div>
+                    </div>
+                    <div class="facilities_gallery">
+                        <img src="photos/kb pics/folder/study room.jpeg" class="facilityimg" alt="Cover not found">
+                        <div class="desc">
+                            <h3> Study Room </h3>
+                            <h6>C-Block 3rd floor</h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
+                            <h6>Closes at: 02:00 am</h6> -->
+                        </div>
+                    </div>
+                    <div class="facilities_gallery">
+                        <img src="photos/kb pics/folder/gym.jpg" class="facilityimg" alt="Cover not found">
+                        <div class="desc">
+                            <h3> Gym </h3>
+                            <h6>C-Block 3rd floor</h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
+                            <h6>Closes at: 02:00 am</h6> -->
+                        </div>
+                    </div>
+                    <div class="facilities_gallery">
+                        <img src="photos/kb pics/folder/room.jpeg" class="facilityimg" alt="Cover not found">
+                        <div class="desc">
+                            <h3> Rooms</h3>
+                            <h6>C-Block, A-Block </h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
+                            <h6>Closes at: 02:00 am</h6> -->
+                        </div>
+                    </div>
+                    <div class="facilities_gallery">
+                        <img src="photos/kb pics/folder/cycle stand.jpg" class="facilityimg" alt="Cover not found">
+                        <div class="desc">
+                            <h3> Cycle Stand</h3>
+                            <h6>Ground floor</h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
+                            <h6>Closes at: 02:00 am</h6> -->
+                        </div>
+                    </div>
+                    <div class="facilities_gallery">
+                        <img src="photos/kb pics/folder/canteen.jpeg" class="facilityimg" alt="Cover not found">
+                        <div class="desc">
+                            <h3> Day Canteen </h3>
                             <h6>B-Block 1st floor</h6>
-                            <h6>Opens at: 02:00 pm</h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
+                            <h6>Closes at: 02:00 am</h6> -->
+                        </div>
+                    </div>
+                    <div class="facilities_gallery">
+                        <img src="photos/kb pics/folder/stationary.jpeg" class="facilityimg" alt="Cover not found">
+                        <div class="desc">
+                            <h3> Stationary </h3>
+                            <h6>C-Block 1st floor</h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
+                            <h6>Closes at: 02:00 am</h6> -->
+                        </div>
+                    </div>
+                    <div class="facilities_gallery">
+                        <img src="photos/kb pics/folder/night-canteen.jpeg" class="facilityimg" alt="Cover not found">
+                        <div class="desc">
+                            <h3> Night Canteen </h3>
+                            <h6>Ground floor</h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
+                            <h6>Closes at: 02:00 am</h6> -->
+                        </div>
+                    </div>
+                    <div class="facilities_gallery">
+                        <img src="photos/kb pics/folder/computer room.jpeg" class="facilityimg" alt="Cover not found">
+                        <div class="desc">
+                            <h3> Computer Room </h3>
+                            <h6>B-Block 3rd floor</h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
                             <h6>Closes at: 02:00 am</h6>
+                        </div> -->
+                        </div>
+                    </div>
+                    <div class="facilities_gallery">
+                        <img src="photos/kb pics/folder/parlour.jpeg" class="facilityimg" alt="Cover not found">
+                        <div class="desc">
+                            <h3> Parlour </h3>
+                            <h6>C-Block Ground floor</h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
+                            <h6>Closes at: 02:00 am</h6> -->
+                        </div>
+                    </div>
+                    <div class="facilities_gallery">
+                        <img src="photos/kb pics/folder/laundary.png" class="facilityimg" alt="Cover not found">
+                        <div class="desc">
+                            <h3> Laundary </h3>
+                            <h6>C-Block 2nd floor</h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
+                            <h6>Closes at: 02:00 am</h6> -->
                         </div>
                     </div>
                     <div class="facilities_gallery">
                         <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
                         <div class="desc">
-                            <h2> Canteen </h2>
-                            <h6>B-Block 1st floor</h6>
-                            <h6>Opens at: 02:00 pm</h6>
+                            <h3> Guest Room </h3>
+                            <h6>C-Block Ground floor</h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
                             <h6>Closes at: 02:00 am</h6>
+                        </div> -->
                         </div>
                     </div>
                     <div class="facilities_gallery">
-                        <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
+                        <img src="photos/kb pics/folder/lounge.jpeg" class="facilityimg" alt="Cover not found">
                         <div class="desc">
-                            <h2> Canteen </h2>
-                            <h6>B-Block 1st floor</h6>
-                            <h6>Opens at: 02:00 pm</h6>
-                            <h6>Closes at: 02:00 am</h6>
-                        </div>
-                    </div>
-                    <div class="facilities_gallery">
-                        <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
-                        <div class="desc">
-                            <h2> Canteen </h2>
-                            <h6>B-Block 1st floor</h6>
-                            <h6>Opens at: 02:00 pm</h6>
-                            <h6>Closes at: 02:00 am</h6>
-                        </div>
-                    </div>
-                    <div class="facilities_gallery">
-                        <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
-                        <div class="desc">
-                            <h2> Canteen </h2>
-                            <h6>B-Block 1st floor</h6>
-                            <h6>Opens at: 02:00 pm</h6>
-                            <h6>Closes at: 02:00 am</h6>
-                        </div>
-                    </div>
-                    <div class="facilities_gallery">
-                        <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
-                        <div class="desc">
-                            <h2> Canteen </h2>
-                            <h6>B-Block 1st floor</h6>
-                            <h6>Opens at: 02:00 pm</h6>
-                            <h6>Closes at: 02:00 am</h6>
+                            <h3> Lounge </h3>
+                            <h6>B-Block Ground floor</h6>
+                            <!-- <h6>Opens at: 02:00 pm</h6>
+                            <h6>Closes at: 02:00 am</h6> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
-    <!-- Carousel data -->
-    <div class="facilities">
+    <!-- Carousel data
+    <div class="facilities" id="facility">
         <h1>Facilities</h1>
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
@@ -176,8 +226,8 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="2000">
-                    <!-- <img src="photos/cat.jpeg" class="d-block w-100" alt="..."> -->
-                    <div class="card-set1">
+                    <img src="photos/cat.jpeg" class="d-block w-100" alt="...">
+    <!-- <div class="card-set1">
                         <div class="facilities_gallery">
                             <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
                             <div class="desc">
@@ -237,129 +287,358 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <img src="photos/cat.jpeg" class="d-block w-100" alt="..."> -->
-                </div>
-                <div class="carousel-item card_carousel" data-bs-interval="2000">
-                    <div class="card-set1">
-                        <div class="facilities_gallery">
-                            <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
-                            <div class="desc">
-                                <h2> Canteen </h2>
-                                <h6>B-Block 1st floor</h6>
-                                <h6>Opens at: 02:00 pm</h6>
-                                <h6>Closes at: 02:00 am</h6>
-                            </div>
-                        </div>
-                        <div class="facilities_gallery">
-                            <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
-                            <div class="desc">
-                                <h2> Canteen </h2>
-                                <h6>B-Block 1st floor</h6>
-                                <h6>Opens at: 02:00 pm</h6>
-                                <h6>Closes at: 02:00 am</h6>
-                            </div>
-                        </div>
-                        <div class="facilities_gallery">
-                            <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
-                            <div class="desc">
-                                <h2> Canteen </h2>
-                                <h6>B-Block 1st floor</h6>
-                                <h6>Opens at: 02:00 pm</h6>
-                                <h6>Closes at: 02:00 am</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <img src="photos/cat.jpeg" class="d-block w-100" alt="..."> -->
+                    <img src="photos/cat.jpeg" class="d-block w-100" alt="..."> -->
+    <!-- </div>
+    <div class="carousel-item card_carousel" data-bs-interval="2000">
+        <div class="card-set1">
+            <div class="facilities_gallery">
+                <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
+                <div class="desc">
+                    <h2> Canteen </h2>
+                    <h6>B-Block 1st floor</h6>
+                    <h6>Opens at: 02:00 pm</h6>
+                    <h6>Closes at: 02:00 am</h6>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="facilities_gallery">
+                <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
+                <div class="desc">
+                    <h2> Canteen </h2>
+                    <h6>B-Block 1st floor</h6>
+                    <h6>Opens at: 02:00 pm</h6>
+                    <h6>Closes at: 02:00 am</h6>
+                </div>
+            </div>
+            <div class="facilities_gallery">
+                <img src="photos/cat.jpeg" class="facilityimg" alt="Cover not found">
+                <div class="desc">
+                    <h2> Canteen </h2>
+                    <h6>B-Block 1st floor</h6>
+                    <h6>Opens at: 02:00 pm</h6>
+                    <h6>Closes at: 02:00 am</h6>
+                </div>
+            </div>
         </div>
+        <img src="photos/cat.jpeg" class="d-block w-100" alt="...">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    </div> -->
+
+
+    <!-- Gallery -->
+
+
+
+
+    <div class="gallery" id="gall">
+        <h1>Gallery</h1>
+        <div class="row">
+            <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+            </div>
+
+            <div class="col-lg-3 mb-4 mb-lg-0">
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+            </div>
+
+            <div class="col-lg-3 mb-4 mb-lg-0">
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+            </div>
+            <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+            </div>
+
+            <div class="col-lg-3 mb-4 mb-lg-0">
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+            </div>
+
+            <div class="col-lg-3 mb-4 mb-lg-0">
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+            </div>
+
+
+            <div class="col-lg-3 mb-4 mb-lg-0">
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" />
+
+                <img src="photos/cat.jpeg" class=" hey w-100 shadow-1-strong rounded mb-4" />
+            </div>
+
+            <div class="col-lg-3 mb-4 mb-lg-0">
+                <img src="photos/cat.jpeg" class=" hey w-100 shadow-1-strong rounded mb-4" />
+
+                <img src="photos/cat.jpeg" class="hey w-100 shadow-1-strong rounded mb-4" ; />
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="team" id="teams">
+        <div class="section-title">
+            <h1>Our Team</h1>
+            <section class="team-section">
+                <div class="container">
+                    <div class="row">
+
+                        <!-- <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic
+                        or
+                        web designs.</p> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="team-items">
+                        <div class="item">
+                            <img src="photos/team/chief_warden.jpg" alt="team" />
+                            <div class="inner">
+                                <div class="info">
+                                    <h5>Dr.Anumita Mishra</h5>
+                                    <p class="council">Chief Warden</p>
+                                    <div class="personal">
+                                        <p class="branch">Dept of Civil Engineering</p>
+                                        <p class="email">anumita.mishra@ce.iitr.ac.in</p>
+                                        <!-- <p class="year">Ph. No. +911332 284919</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="photos/team/warden.jpg" alt="team" />
+                            <div class="inner">
+                                <div class="info">
+                                    <h5>Dr. Rishman Jot Kour Chahal</h5>
+                                    <p class="council">Warden</p>
+                                    <div class="personal">
+                                        <p class="branch">Dept. of HSS</p>
+                                        <p class="email">rishman.chahal@hs.iitr.ac.in</p>
+                                        <!-- <p class="year">5th year</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="photos/team/resi2.jpg" alt="team" />
+                            <div class="inner">
+                                <div class="info">
+                                    <h5>Ms.Osheen</h5>
+                                    <p class="council">Residential Warden</p>
+                                    <div class="personal">
+                                        <p class="branch">Dept. Of WRD&M</p>
+                                        <p class="email">osheen@wr.iitr.ac.in</p>
+                                        <!-- <p class="year">5th year</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="photos/team/resi3.jpg" alt="team" />
+                            <div class="inner">
+                                <div class="info">
+                                    <h5>Ms.Priya</h5>
+                                    <p class="council">Residential Warden</p>
+                                    <div class="personal">
+                                        <p class="branch">Dept. of Humanities & Social Science</p>
+                                        <p class="email">priya@hs.iitr.ac.in</p>
+                                        <!-- <p class="year">5th year</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="photos/team/supdt.jpg" alt="team" />
+                            <div class="inner">
+                                <div class="info">
+                                    <h5>Kamla</h5>
+                                    <p class="council">Junior Superintendant</p>
+                                    <div class="personal">
+                                        <!-- <p class="branch">Electronics and Communication Engineering</p> -->
+                                        <p class="email">bounthiyalkamla@gmail.com</p>
+                                        <!-- <p class="year">5th year</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="photos/team/supervisor.jpg" alt="team" />
+                            <div class="inner">
+                                <div class="info">
+                                    <h5>Archana Singh</h5>
+                                    <p class="council">Supervisor</p>
+                                    <div class="personal">
+                                        <!-- <p class="branch">Electronics and Communication Engineering</p> -->
+                                        <p class="email">archanasingh513@gmail.com</p>
+                                        <!-- <p class="year">5th year</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="photos/cat.jpeg" alt="team" />
+                            <div class="inner">
+                                <div class="info">
+                                    <h5>Surbhi Adhya</h5>
+                                    <p class="council">Technical Secretary</p>
+                                    <div class="personal">
+                                        <p class="branch">Dept. of ECE</p>
+                                        <p class="email">sadya@ec.iitr.ac.in</p>
+                                        <!-- <p class="year">5th year</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="photos/team/doms.jpg" alt="team" />
+                            <div class="inner">
+                                <div class="info">
+                                    <h5>Dommeti Uma Sai Suvarchala</h5>
+                                    <p class="council">Bhawan Secretary</p>
+                                    <div class="personal">
+                                        <p class="branch">Dept. of Mechanical Engineering</p>
+                                        <p class="email">dommeti_uss@me.iitr.ac.in</p>
+                                        <!-- <p class="year">2nd Year</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="photos/team/maintain.jpg" alt="team" />
+                            <div class="inner">
+                                <div class="info">
+                                    <h5>Tishee Natani</h5>
+                                    <p class="council">Maintainence Secretary</p>
+                                    <div class="personal">
+                                        <p class="branch">Dept. of Biotechnology</p>
+                                        <p class="email">tishee_n@bt.iitr.ac.in</p>
+                                        <!-- <p class="year">3rd Year</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="photos/team/mess.jpg" alt="team" />
+                            <div class="inner">
+                                <div class="info">
+                                    <h5>Wagisha Gupta</h5>
+                                    <p class="council">Mess Secretary</p>
+                                    <div class="personal">
+                                        <p class="branch">Dept. of Metallurgical Engineering</p>
+                                        <p class="email">wagisha_g@mt.iitr.ac.in</p>
+                                        <!-- <p class="year">2nd year</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="photos/team/cultural.jpg" alt="team" />
+                            <div class="inner">
+                                <div class="info">
+                                    <h5>Shreya Prabhakar Polumatla</h5>
+                                    <p class="council">Cultural Secretary</p>
+                                    <div class="personal">
+                                        <p class="branch">Dept. of Chemical Engineering(Int.MSc)</p>
+                                        <p class="email">shreya_p@cy.iitr.ac.in</p>
+                                        <!-- <p class="year">3rd Year</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="photos/team/sports.jpg" alt="team" />
+                            <div class="inner">
+                                <div class="info">
+                                    <h5>Aishwarya Palta</h5>
+                                    <p class="council">Sports Secretary</p>
+                                    <div class="personal">
+                                        <p class="branch">Dept. of Metallurgical Engineering</p>
+                                        <p class="email">aishwarya@mt.iitr.ac.in</p>
+                                        <!-- <p class="year">3rd Year</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+
     </div>
 
 
 
 
 
-    <div class="grid">
-        <div class="item"
-            style="background-image: url(https://images.unsplash.com/photo-1439209306665-700c9bca794c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=)">
-        </div>
 
-        <div class="item"
-            style="background-image: url(https://images.unsplash.com/photo-1466853817435-05b43fe45b39?dpr=1&auto=compress,format&fit=crop&w=1199&h=871&q=80&cs=tinysrgb&crop=)">
-        </div>
-
-        <div class="item"
-            style="background-image: url(https://images.unsplash.com/photo-1488572384981-eac03dfeb6b9?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=)">
-        </div>
-
-        <div class="item"
-            style="background-image: url(https://images.unsplash.com/photo-1470091688026-38b51162c8df?dpr=1&auto=compress,format&fit=crop&w=1199&h=750&q=80&cs=tinysrgb&crop=)">
-        </div>
-
-        <div class="item"
-            style="background-image: url(https://images.unsplash.com/photo-1475139450941-3b6464b2dde3?dpr=1&auto=compress,format&fit=crop&w=1199&h=673&q=80&cs=tinysrgb&crop=)">
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-    <!-- footer-->
-    <div class="footerout" id="C7">
+    <footer style="justify-items: center;" id="C7">
         <h1>Contact Us</h1>
-        <div class="footer">
-            <div class="footercontent">
+        <div class="footer_content" style="background-color: #faf5ff;">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-6 col-md-14 mb-4">
+                        <h5> Contact Information for Complaints and Suggestions: </h5>
 
-                <h5> Contact Information for Complaints and Suggestions: </h5>
+                        <ul>
+                            <li class="contactinfo">
+                                <img src="https://img.icons8.com/ios-filled/344/phone.png" class="footerlogo">
+                                +91-1332-285855,
+                                +91-1332-284220
+                            </li>
+                            <li class="contactinfo">
+                                <img src="https://img.icons8.com/material-sharp/344/mail.png" class="footerlogo">
+                                kastura.bhawan@iitr.ac.in
+                            </li>
+                            <li class="contactinfo">
+                                <img src="https://img.icons8.com/ios-glyphs/344/marker--v1.png " class="footerlogo">
+                                Kasturba
+                                Bhawan, IIT Roorkee
+                            </li>
 
-                <ul>
-                    <li class="contactinfo">
-                        <img src="https://img.icons8.com/ios-filled/344/phone.png" class="footerlogo"> +91-1332-285855,
-                        +91-1332-284220
-                    </li>
-                    <li class="contactinfo">
-                        <img src="https://img.icons8.com/material-sharp/344/mail.png" class="footerlogo">
-                        kastura.bhawan@iitr.ac.in
-                    </li>
-                    <li class="contactinfo">
-                        <img src="https://img.icons8.com/ios-glyphs/344/marker--v1.png " class="footerlogo"> Kasturba
-                        Bhawan, IIT Roorkee
-                    </li>
 
+                        </ul>
+                        <p>For suggestions and complaints you can contact the respective team members or
+                            drop
+                            the same
+                            at
+                            the
+                            facebook page.
+                        <p>
+                    </div>
+                    <div class="col-lg-1 col-md-1 mb-1"></div>
 
-                </ul>
-                <p>For suggestions and complaints you can contact the respective team members or drop the same at the
-                    facebook page.
-                <p>
+                    <div class="col-lg-5 col-md-6 mb-3">
+                        <iframe class="maplink"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13840.027412312678!2d77.8953614!3d29.8640762!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3a09d3ce2561e832!2sKasturba%20Bhawan!5e0!3m2!1sen!2sin!4v1655413311995!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+                    </div>
+                </div>
             </div>
-
-            <div class="map">
-                <iframe class="maplink"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13840.027412312678!2d77.8953614!3d29.8640762!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3a09d3ce2561e832!2sKasturba%20Bhawan!5e0!3m2!1sen!2sin!4v1655413311995!5m2!1sen!2sin"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+            <div class="text-center p-3" style="background-color: #faf5ff; color: #61427d;">
+                <h6> Designed and Developed with 🖤 by Sinja, Ishita and Rishita</h6>
             </div>
         </div>
-        <h6> Designed and Developed with 🖤 by Sinja, Ishita and Rishita</h6>
-    </div>
+        <!-- Copyright -->
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
